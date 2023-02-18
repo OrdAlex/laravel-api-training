@@ -12,8 +12,5 @@ class InvoiceSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call([
-            CustomerSeeder::class
-        ]);
     }
 }
